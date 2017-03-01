@@ -1,0 +1,98 @@
+html, body {
+ height: 100%;
+}
+
+p {font-size: 14px;
+
+}
+
+h2 {
+ font-size: 18px;
+ font-weight: bold;
+}
+
+
+
+
+
+.part1 {
+ background-image: url("../Images/landing.jpg");
+ min-height: 350px;
+ text-align: center;
+ width: auto;
+ padding-bottom:5%;
+
+
+}
+
+#section1 {
+ min-width: 100%;
+
+}
+
+
+
+#breakfast-img {
+ background-image: url("../img/foodtop/breakfast.jpg");
+ height: 200px;
+ padding-top: 15px;
+
+
+}
+
+#lunch-img {
+ background-image: url("../img/foodtop/lunch.jpg");
+ height: 200px;
+ padding-top: 15px;
+
+}
+
+#dinner-img {
+ background-image: url("../img/foodtop/dinner.jpg");
+ height: 200px;
+ padding-top: 15px;
+
+ }
+
+
+ .foods p {
+ margin-left: 2px;
+ font-size: 30px;
+
+ }
+
+#fastfood {
+ padding-top: 50px;
+ padding-left: 50px;
+
+
+}
+
+#drinks {
+ padding-top: 50px;
+
+}
+
+#section3 {
+ background-image: url("../img/backgrounds/foodsBg.jpg");
+min-width: 100%;
+height: 400px;
+background-repeat: no-repeat;
+background-position: center;
+padding-top: 60px;
+padding-left: 180px;
+
+
+
+}
+
+#rowbox {
+ background-color: white;
+ text-align: center;
+ width: 80%;
+ height: 300px;
+
+}
+#container{
+    background-image: url("../Images/background/foodsBg.jpg");
+}
