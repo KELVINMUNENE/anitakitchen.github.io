@@ -1,98 +1,135 @@
-html, body {
- height: 100%;
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
 }
 
-p {font-size: 14px;
-
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
-h2 {
- font-size: 18px;
- font-weight: bold;
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
 }
 
-
-
-
-
-.part1 {
- background-image: url("../Images/landing.jpg");
- min-height: 350px;
- text-align: center;
- width: auto;
- padding-bottom:5%;
-
-
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
 }
 
-#section1 {
- min-width: 100%;
-
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
-
-
-#breakfast-img {
- background-image: url("../img/foodtop/breakfast.jpg");
- height: 200px;
- padding-top: 15px;
-
-
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-left: 50px;
 }
 
-#lunch-img {
- background-image: url("../img/foodtop/lunch.jpg");
- height: 200px;
- padding-top: 15px;
-
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
-
-#dinner-img {
- background-image: url("../img/foodtop/dinner.jpg");
- height: 200px;
- padding-top: 15px;
-
- }
-
-
- .foods p {
- margin-left: 2px;
- font-size: 30px;
-
- }
-
-#fastfood {
- padding-top: 50px;
- padding-left: 50px;
-
-
+#logo{
+    background-image: url("../img/backgrounds/landing.jpg");
+    height: 400px;
+    color: white;
 }
-
-#drinks {
- padding-top: 50px;
-
+#logo img{
+    margin-left: 450px;
+    margin-top: 80px;
+    height: 50px;
+    width: 50px;
 }
-
-#section3 {
- background-image: url("../img/backgrounds/foodsBg.jpg");
-min-width: 100%;
-height: 400px;
-background-repeat: no-repeat;
-background-position: center;
-padding-top: 60px;
-padding-left: 180px;
-
-
-
+#breakfast{
+    background-image: url("../img/foodtop/breakfast.jpg");
+    color: white;
+    height: 150px;
+    text-align: center;
 }
-
-#rowbox {
- background-color: white;
- text-align: center;
- width: 80%;
- height: 300px;
-
+#breakfast h2{
+    padding: 20px 0px 0px 0px;
 }
-#container{
-    background-image: url("../Images/background/foodsBg.jpg");
+#lunch{
+    background-image: url("../img/foodtop/lunch.jpg");
+    color: white; height: 150px;
+    background-color: ghostwhite;
+    text-align: center;
+}
+#lunch h2{
+    padding: 20px 0px 0px 0px;
+}
+#dinner{
+    background-image: url("../img/foodtop/dinner.jpg");
+    color: white;
+    height: 150px;
+    text-align: center;
+}
+#dinner h2{
+    padding: 20px 0px 0px 0px;
+}
+#imgrow{
+    margin-left: 50px;
+    padding: 7px;
+    border: 2px;
+    max-height: 150px;
+    box-shadow: 3px 3px 3px #ccc;
+}
+#text1{
+    margin-right: 10px;
+}
+#text1 h1 h4 p link{
+    text-align: left;
+}
+#galary1{
+    border: 1px solid red;
+    width: 80px;
+}
+#imgrow2{
+    margin-right: 50px;
+    padding: 7px;
+    border: 2px;
+    width: 150px;
+     max-height: 150px;
+    box-shadow: 3px 3px 3px #f1f1f1;
+    float: right;
+}
+#galary2{
+    border: 1px solid red;
+    width: 80px;
+}
+.foodlist{
+    padding: 50px;
+    background-image: url("../img/backgrounds/foodsBg.jpg");
+    margin-top: 5px;
+}
+.custom-wrapper{
+    border: 1px solid beige;
+    box-shadow: 2px 2px 2px #f1f1f1;
+}
+.customer-wrapper{
+    text-align: center;
+    float: left;
+}
+.about-wrapper{
+    float: right;
+    border-left: 1px solid gainsboro;
+    text-align: center;
 }
